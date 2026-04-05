@@ -1,0 +1,609 @@
+[ERROR] COMPILATION ERROR : 
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[27,37] cannot find symbol
+  symbol:   method isActive()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[24,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[25,31] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[25,60] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[26,79] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[34,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[38,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[39,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[40,57] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[41,34] cannot find symbol
+  symbol:   method getFullName()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[42,37] cannot find symbol
+  symbol:   method getPhone()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[49,48] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[49,65] cannot find symbol
+  symbol:   method getFullName()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[55,64] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.LoginRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[55,84] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.LoginRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[56,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.LoginRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[58,13] cannot find symbol
+  symbol:   method setLastLogin(java.time.LocalDateTime)
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[66,13] cannot find symbol
+  symbol:   method setEmailVerified(boolean)
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[67,13] cannot find symbol
+  symbol:   method setEmailVerificationToken(<nulltype>)
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[75,13] cannot find symbol
+  symbol:   method setPasswordResetOtp(java.lang.String)
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[76,13] cannot find symbol
+  symbol:   method setOtpExpiresAt(java.time.LocalDateTime)
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[78,46] cannot find symbol
+  symbol:   method getFullName()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[82,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ResetPasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[84,17] cannot find symbol
+  symbol:   method getOtpExpiresAt()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[84,51] cannot find symbol
+  symbol:   method getOtpExpiresAt()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[87,45] cannot find symbol
+  symbol:   method getOtp()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ResetPasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[87,60] cannot find symbol
+  symbol:   method getPasswordResetOtp()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[90,56] cannot find symbol
+  symbol:   method getNewPassword()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ResetPasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[91,13] cannot find symbol
+  symbol:   method setPasswordResetOtp(<nulltype>)
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[92,13] cannot find symbol
+  symbol:   method setOtpExpiresAt(<nulltype>)
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[105,20] cannot find symbol
+  symbol:   method getFullName()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.UpdateProfileRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[105,68] cannot find symbol
+  symbol:   method getFullName()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.UpdateProfileRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[106,20] cannot find symbol
+  symbol:   method getPhone()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.UpdateProfileRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[106,68] cannot find symbol
+  symbol:   method getPhone()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.UpdateProfileRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[113,45] cannot find symbol
+  symbol:   method getOldPassword()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ChangePasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[113,68] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[116,56] cannot find symbol
+  symbol:   method getNewPassword()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ChangePasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[123,17] cannot find symbol
+  symbol:   method getAvatarUrl()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[123,48] cannot find symbol
+  symbol:   method getAvatarUrl()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[124,47] cannot find symbol
+  symbol:   method getAvatarUrl()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[126,13] cannot find symbol
+  symbol:   method setAvatarUrl(java.lang.String)
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[132,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[133,31] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[133,60] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[134,79] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[137,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.thucphamsach.backend_ecommerce.dto.response.AuthResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[139,29] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[140,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[141,31] cannot find symbol
+  symbol:   method getFullName()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[142,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[143,32] cannot find symbol
+  symbol:   method getAvatarUrl()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[148,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.thucphamsach.backend_ecommerce.dto.response.UserResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[149,25] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[150,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[151,31] cannot find symbol
+  symbol:   method getFullName()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[152,28] cannot find symbol
+  symbol:   method getPhoneNumber()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[153,32] cannot find symbol
+  symbol:   method getAvatarUrl()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[154,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[155,31] cannot find symbol
+  symbol:   method isActive()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[156,36] cannot find symbol
+  symbol:   method isEmailVerified()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[157,32] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/EmailService.java:[39,13] cannot find symbol
+  symbol:   variable log
+  location: class com.thucphamsach.backend_ecommerce.service.EmailService
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/EmailService.java:[52,13] cannot find symbol
+  symbol:   variable log
+  location: class com.thucphamsach.backend_ecommerce.service.EmailService
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/EmailService.java:[64,65] cannot find symbol
+  symbol:   method getId()
+  location: variable order of type com.thucphamsach.backend_ecommerce.enity.Order
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/EmailService.java:[66,13] cannot find symbol
+  symbol:   variable log
+  location: class com.thucphamsach.backend_ecommerce.service.EmailService
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/dto/response/ApiResponse.java:[12,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.thucphamsach.backend_ecommerce.dto.response.ApiResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/dto/response/ApiResponse.java:[20,27] cannot find symbol
+  symbol:   method <T>builder()
+  location: class com.thucphamsach.backend_ecommerce.dto.response.ApiResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[39,52] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[42,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[43,30] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[44,43] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[45,37] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[46,34] cannot find symbol
+  symbol:   method isActive()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[47,35] cannot find symbol
+  symbol:   method getSortOrder()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[50,21] cannot find symbol
+  symbol:   method setImageUrl(java.lang.String)
+  location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[57,33] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[58,46] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[59,40] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[60,35] cannot find symbol
+  symbol:   method isActive()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[61,38] cannot find symbol
+  symbol:   method getSortOrder()
+  location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[63,25] cannot find symbol
+  symbol:   method getImageUrl()
+  location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[63,87] cannot find symbol
+  symbol:   method getImageUrl()
+  location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[64,21] cannot find symbol
+  symbol:   method setImageUrl(java.lang.String)
+  location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[71,22] cannot find symbol
+  symbol:   method getProducts()
+  location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[91,39] cannot find symbol
+  symbol:   method getProducts()
+  location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[83,32] cannot find symbol
+  symbol:   method builder()
+  location: class com.thucphamsach.backend_ecommerce.dto.response.CategoryResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[84,22] cannot find symbol
+  symbol:   method getId()
+  location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[85,24] cannot find symbol
+  symbol:   method getName()
+  location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[86,24] cannot find symbol
+  symbol:   method getSlug()
+  location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[87,31] cannot find symbol
+  symbol:   method getDescription()
+  location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[88,28] cannot find symbol
+  symbol:   method getImageUrl()
+  location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[89,28] cannot find symbol
+  symbol:   method isActive()
+  location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[90,29] cannot find symbol
+  symbol:   method getSortOrder()
+  location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/OAuth2UserService.java:[30,25] cannot find symbol
+  symbol:   method setGoogleId(java.lang.String)
+  location: variable existing of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/OAuth2UserService.java:[31,29] cannot find symbol
+  symbol:   method getAvatarUrl()
+  location: variable existing of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/OAuth2UserService.java:[31,62] cannot find symbol
+  symbol:   method setAvatarUrl(java.lang.String)
+  location: variable existing of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/OAuth2UserService.java:[34,21] cannot find symbol
+  symbol:   method builder()
+  location: class com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/OAuth2AuthenticationSuccessHandler.java:[37,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/OAuth2AuthenticationSuccessHandler.java:[39,79] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/controller/AddressController.java:[65,20] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project backend-ecommerce: Compilation failure: Compilation failure: 
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[27,37] cannot find symbol
+[ERROR]   symbol:   method isActive()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[24,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[25,31] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[25,60] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/UserDetailsServiceImpl.java:[26,79] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[34,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[38,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[39,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[40,57] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[41,34] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[42,37] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.RegisterRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[49,48] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[49,65] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[55,64] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.LoginRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[55,84] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.LoginRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[56,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.LoginRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[58,13] cannot find symbol
+[ERROR]   symbol:   method setLastLogin(java.time.LocalDateTime)
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[66,13] cannot find symbol
+[ERROR]   symbol:   method setEmailVerified(boolean)
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[67,13] cannot find symbol
+[ERROR]   symbol:   method setEmailVerificationToken(<nulltype>)
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[75,13] cannot find symbol
+[ERROR]   symbol:   method setPasswordResetOtp(java.lang.String)
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[76,13] cannot find symbol
+[ERROR]   symbol:   method setOtpExpiresAt(java.time.LocalDateTime)
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[78,46] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[82,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ResetPasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[84,17] cannot find symbol
+[ERROR]   symbol:   method getOtpExpiresAt()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[84,51] cannot find symbol
+[ERROR]   symbol:   method getOtpExpiresAt()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[87,45] cannot find symbol
+[ERROR]   symbol:   method getOtp()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ResetPasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[87,60] cannot find symbol
+[ERROR]   symbol:   method getPasswordResetOtp()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[90,56] cannot find symbol
+[ERROR]   symbol:   method getNewPassword()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ResetPasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[91,13] cannot find symbol
+[ERROR]   symbol:   method setPasswordResetOtp(<nulltype>)
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[92,13] cannot find symbol
+[ERROR]   symbol:   method setOtpExpiresAt(<nulltype>)
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[105,20] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.UpdateProfileRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[105,68] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.UpdateProfileRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[106,20] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.UpdateProfileRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[106,68] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.UpdateProfileRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[113,45] cannot find symbol
+[ERROR]   symbol:   method getOldPassword()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ChangePasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[113,68] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[116,56] cannot find symbol
+[ERROR]   symbol:   method getNewPassword()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.ChangePasswordRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[123,17] cannot find symbol
+[ERROR]   symbol:   method getAvatarUrl()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[123,48] cannot find symbol
+[ERROR]   symbol:   method getAvatarUrl()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[124,47] cannot find symbol
+[ERROR]   symbol:   method getAvatarUrl()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[126,13] cannot find symbol
+[ERROR]   symbol:   method setAvatarUrl(java.lang.String)
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[132,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[133,31] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[133,60] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[134,79] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[137,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.dto.response.AuthResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[139,29] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[140,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[141,31] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[142,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[143,32] cannot find symbol
+[ERROR]   symbol:   method getAvatarUrl()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[148,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.dto.response.UserResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[149,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[150,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[151,31] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[152,28] cannot find symbol
+[ERROR]   symbol:   method getPhoneNumber()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[153,32] cannot find symbol
+[ERROR]   symbol:   method getAvatarUrl()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[154,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[155,31] cannot find symbol
+[ERROR]   symbol:   method isActive()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[156,36] cannot find symbol
+[ERROR]   symbol:   method isEmailVerified()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/AuthService.java:[157,32] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/EmailService.java:[39,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.service.EmailService
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/EmailService.java:[52,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.service.EmailService
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/EmailService.java:[64,65] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable order of type com.thucphamsach.backend_ecommerce.enity.Order
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/EmailService.java:[66,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.service.EmailService
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/dto/response/ApiResponse.java:[12,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.dto.response.ApiResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/dto/response/ApiResponse.java:[20,27] cannot find symbol
+[ERROR]   symbol:   method <T>builder()
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.dto.response.ApiResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[39,52] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[42,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[43,30] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[44,43] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[45,37] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[46,34] cannot find symbol
+[ERROR]   symbol:   method isActive()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[47,35] cannot find symbol
+[ERROR]   symbol:   method getSortOrder()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[50,21] cannot find symbol
+[ERROR]   symbol:   method setImageUrl(java.lang.String)
+[ERROR]   location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[57,33] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[58,46] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[59,40] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[60,35] cannot find symbol
+[ERROR]   symbol:   method isActive()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[61,38] cannot find symbol
+[ERROR]   symbol:   method getSortOrder()
+[ERROR]   location: variable request of type com.thucphamsach.backend_ecommerce.dto.request.CategoryRequest
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[63,25] cannot find symbol
+[ERROR]   symbol:   method getImageUrl()
+[ERROR]   location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[63,87] cannot find symbol
+[ERROR]   symbol:   method getImageUrl()
+[ERROR]   location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[64,21] cannot find symbol
+[ERROR]   symbol:   method setImageUrl(java.lang.String)
+[ERROR]   location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[71,22] cannot find symbol
+[ERROR]   symbol:   method getProducts()
+[ERROR]   location: variable category of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[91,39] cannot find symbol
+[ERROR]   symbol:   method getProducts()
+[ERROR]   location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[83,32] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.dto.response.CategoryResponse
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[84,22] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[85,24] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[86,24] cannot find symbol
+[ERROR]   symbol:   method getSlug()
+[ERROR]   location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[87,31] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[88,28] cannot find symbol
+[ERROR]   symbol:   method getImageUrl()
+[ERROR]   location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[89,28] cannot find symbol
+[ERROR]   symbol:   method isActive()
+[ERROR]   location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/CategoryService.java:[90,29] cannot find symbol
+[ERROR]   symbol:   method getSortOrder()
+[ERROR]   location: variable c of type com.thucphamsach.backend_ecommerce.enity.Category
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/OAuth2UserService.java:[30,25] cannot find symbol
+[ERROR]   symbol:   method setGoogleId(java.lang.String)
+[ERROR]   location: variable existing of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/OAuth2UserService.java:[31,29] cannot find symbol
+[ERROR]   symbol:   method getAvatarUrl()
+[ERROR]   location: variable existing of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/OAuth2UserService.java:[31,62] cannot find symbol
+[ERROR]   symbol:   method setAvatarUrl(java.lang.String)
+[ERROR]   location: variable existing of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/service/OAuth2UserService.java:[34,21] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/OAuth2AuthenticationSuccessHandler.java:[37,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/security/OAuth2AuthenticationSuccessHandler.java:[39,79] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] /E:/backend-ecommerce/src/main/java/com/thucphamsach/backend_ecommerce/controller/AddressController.java:[65,20] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.thucphamsach.backend_ecommerce.enity.User
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
