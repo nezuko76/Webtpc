@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Xác nhận email</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 40px auto; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .header { background: #2e7d32; padding: 30px; text-align: center; color: #fff; }
+        .header h1 { margin: 0; font-size: 24px; }
+        .body { padding: 30px; color: #333; }
+        .btn { display: inline-block; background: #2e7d32; color: #fff; padding: 14px 28px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 20px 0; }
+        .footer { padding: 20px 30px; font-size: 12px; color: #999; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🌿 Thực Phẩm Sạch</h1>
+    </div>
+    <div class="body">
+        <p>Xin chào <strong th:text="${fullName}">Khách hàng</strong>,</p>
+        <p>Cảm ơn bạn đã đăng ký tài khoản tại <strong>Thực Phẩm Sạch</strong>.</p>
+        <p>Vui lòng nhấn nút bên dưới để xác nhận địa chỉ email của bạn:</p>
+        <a th:href="${verifyUrl}" class="btn">Xác nhận Email</a>
+        <p>Hoặc copy link này vào trình duyệt:</p>
+        <p th:text="${verifyUrl}" style="word-break:break-all; color:#2e7d32;"></p>
+        <p>Link có hiệu lực trong 24 giờ. Nếu bạn không đăng ký tài khoản, hãy bỏ qua email này.</p>
+    </div>
+    <div class="footer">
+        <p>© 2024 Thực Phẩm Sạch. Mọi quyền được bảo lưu.</p>
+    </div>
+</div>
+</body>
+</html>

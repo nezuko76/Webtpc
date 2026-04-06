@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Xác nhận đơn hàng</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 40px auto; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .header { background: #2e7d32; padding: 30px; text-align: center; color: #fff; }
+        .header h1 { margin: 0; font-size: 24px; }
+        .body { padding: 30px; color: #333; }
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+        th { background: #f1f8e9; padding: 10px; text-align: left; font-size: 13px; }
+        td { padding: 10px; border-bottom: 1px solid #eee; font-size: 13px; }
+        .total { font-size: 16px; font-weight: bold; text-align: right; padding: 10px 0; }
+        .btn { display: inline-block; background: #2e7d32; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+        .footer { padding: 20px 30px; font-size: 12px; color: #999; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🌿 Thực Phẩm Sạch</h1>
+    </div>
+    <div class="body">
+        <p>Xin chào <strong th:text="${fullName}">Khách hàng</strong>,</p>
+        <p>Đơn hàng <strong>#<span th:text="${order.id}"></span></strong> của bạn đã được đặt thành công!</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>SL</th>
+                    <th>Đơn giá</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="item : ${order.items}">
+                    <td th:text="${item.productNameSnapshot}"></td>
+                    <td th:text="${item.quantity}"></td>
+                    <td th:text="${#numbers.formatDecimal(item.priceAtPurchase, 0, 'COMMA', 0, 'POINT')} + ' ₫'"></td>
+                    <td th:text="${#numbers.formatDecimal(item.priceAtPurchase * item.quantity, 0, 'COMMA', 0, 'POINT')} + ' ₫'"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="total">
+            Tổng cộng: <span th:text="${#numbers.formatDecimal(order.totalAmount, 0, 'COMMA', 0, 'POINT')} + ' ₫'"></span>
+        </div>
+
+        <p>
+            <a th:href="${frontendUrl + '/orders/' + order.id}" class="btn">Xem đơn hàng</a>
+        </p>
+        <p>Cảm ơn bạn đã tin tưởng và mua sắm tại Thực Phẩm Sạch!</p>
+    </div>
+    <div class="footer">
+        <p>© 2024 Thực Phẩm Sạch. Mọi quyền được bảo lưu.</p>
+    </div>
+</div>
+</body>
+</html>
